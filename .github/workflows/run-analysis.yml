@@ -17,7 +17,7 @@ jobs:
         with:
           name: sample log file upload as artifact
           path: ./src/sample_log.log
-      - uses: PlayWithGithubActions/log-ai-analysis@v2.0.0
+      - uses: PlayWithGithubActions/log-ai-analysis@v3.0.0
         name: Error Log Analysis
         with:
           api-key: ${{ secrets.API_KEY }}
