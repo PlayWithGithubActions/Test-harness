@@ -1,0 +1,83 @@
+[2023-09-04 10:15:23] GPU ERROR LOG
+
+Error ID: 001
+Timestamp: 2023-09-04 10:15:23
+GPU Model: NVIDIA GeForce GTX 2080 Ti
+Driver Version: 495.12
+Operating System: Windows 10
+
+Error Description:
+- Error Type: Kernel Panic
+- Error Message: GPU encountered a fatal error and had to be restarted.
+- Application: GameXYZ.exe
+- Error Code: 0x00000117
+
+Additional Information:
+- Temperature: 80°C
+- Voltage: 1.2V
+- VRAM Usage: 4GB/11GB
+- GPU Clock: 1750 MHz
+- Memory Clock: 7000 MHz
+
+[2023-09-04 10:20:45] GPU ERROR LOG
+
+Error ID: 002
+Timestamp: 2023-09-04 10:20:45
+GPU Model: AMD Radeon RX 6700 XT
+Driver Version: 22.3.1
+Operating System: Ubuntu 22.04
+
+Error Description:
+- Error Type: Graphics Driver Crash
+- Error Message: Display driver stopped responding and was recovered.
+- Application: VideoEditingApp.exe
+- Error Code: 0x0000052B
+
+Additional Information:
+- Temperature: 75°C
+- Voltage: 1.1V
+- VRAM Usage: 6GB/12GB
+- GPU Clock: 2100 MHz
+- Memory Clock: 9000 MHz
+
+[2023-09-04 10:30:12] GPU ERROR LOG
+
+Error ID: 003
+Timestamp: 2023-09-04 10:30:12
+GPU Model: Intel Xe Graphics
+Driver Version: 27.20.100.8935
+Operating System: macOS Monterey
+
+Error Description:
+- Error Type: Shader Compilation Error
+- Error Message: Failed to compile shader "fragment_shader.frag".
+- Application: 3DRenderingApp.app
+- Error Code: 0x000002D9
+
+Additional Information:
+- Temperature: 70°C
+- Voltage: 1.0V
+- VRAM Usage: 2GB/8GB
+- GPU Clock: 1600 MHz
+- Memory Clock: 5000 MHz
+
+[2023-09-04 10:40:56] GPU ERROR LOG
+
+Error ID: 004
+Timestamp: 2023-09-04 10:40:56
+GPU Model: NVIDIA Quadro RTX 8000
+Driver Version: 510.33
+Operating System: Windows Server 2022
+
+Error Description:
+- Error Type: VRAM Overload
+- Error Message: Insufficient video memory to allocate requested texture.
+- Application: CADSoftware.exe
+- Error Code: 0x000007E1
+
+Additional Information:
+- Temperature: 65°C
+- Voltage: 1.3V
+- VRAM Usage: 45GB/48GB
+- GPU Clock: 1770 MHz
+- Memory Clock: 8000 MHz
