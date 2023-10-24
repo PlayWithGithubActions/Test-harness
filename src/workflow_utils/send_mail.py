@@ -25,7 +25,7 @@ print(us_dict)
 
 USERNAME = os.environ.get('USERNAME')
 PASSWORD = os.environ.get('PASSWORD')
-files = ['./report.txt', './src/sample_log.log']
+files = ['./result.txt', './src/sample_log.log']
 message = '''
 Please visit the actions page for more info on the latest run.
 '''
