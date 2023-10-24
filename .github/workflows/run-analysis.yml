@@ -22,6 +22,7 @@ jobs:
         with:
           api-key: ${{ secrets.API_KEY }}
           file_path: ./src/sample_log.log
+          prompt-key: ${{secrets.PROMPT_KEY}}
           output-file: report
       - name: Send notification email
         env:
