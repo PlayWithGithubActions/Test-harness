@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 import json
 
 # Check if files need to be sent
-with open('./src/failed_tests.log', 'r') as f:
+with open('./src/sample_log.log', 'r') as f:
     if f.read().lower().__contains__('no tests failed'):
         import sys
         print("Tests succeded, no email required!")
@@ -25,7 +25,7 @@ print(us_dict)
 
 USERNAME = os.environ.get('USERNAME')
 PASSWORD = os.environ.get('PASSWORD')
-files = ['./src/failed_tests.log', './src/final_report.log']
+files = ['./report.txt', './src/sample_log.log']
 message = '''
 Please visit the actions page for more info on the latest run.
 '''
@@ -33,7 +33,7 @@ for to_user in us_dict['to']:
     msg = MIMEMultipart()
     msg['From'] = USERNAME
     msg['To'] = to_user
-    msg['Subject'] = 'Testing Harness Reports for latest commit'
+    msg['Subject'] = 'Testing Reports for latest commit'
     msg.attach(MIMEText(message, 'plain'))
 
     for file in files:
